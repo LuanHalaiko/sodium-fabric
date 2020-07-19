@@ -17,6 +17,7 @@
     "debug.MixinDebugHud",
     "entity_rendering.MixinCuboid",
     "entity_rendering.MixinEntityRenderer",
+    "features.entity.shadow_clipping.MixinEntityRenderDispatcher",
     "entity_rendering.MixinModelPart",
     "gui.MixinDebugHud",
     "gui.font.MixinGlyphRenderer",
