@@ -45,5 +45,8 @@
     "render_layers.MixinRenderLayers",
     "textures.MixinSprite",
     "textures.MixinSpriteIdentifier"
+  ],
+  "mixins": [
+    "features.chunk_rendering.MixinLightmapTextureManager"
   ]
 }
