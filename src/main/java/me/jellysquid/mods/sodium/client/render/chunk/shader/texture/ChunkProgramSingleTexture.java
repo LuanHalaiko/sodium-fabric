@@ -33,7 +33,7 @@ public class ChunkProgramSingleTexture extends ChunkProgramTextureComponent {
     @Override
     public void setMipmapping(boolean mipped) {
         MinecraftClient.getInstance().getTextureManager()
-                .getTexture(SpriteAtlasTexture.BLOCK_ATLAS_TEX)
+                .getTexture(SpriteAtlasTexture.BLOCK_ATLAS_TEXTURE)
                 .setFilter(false, mipped);
     }
 }

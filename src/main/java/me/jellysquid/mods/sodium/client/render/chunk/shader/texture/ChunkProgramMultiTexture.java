@@ -43,7 +43,7 @@ public class ChunkProgramMultiTexture extends ChunkProgramTextureComponent {
         LightmapTextureManagerAccessor lightmapTextureManager =
                 ((LightmapTextureManagerAccessor) client.gameRenderer.getLightmapTextureManager());
 
-        AbstractTexture blockAtlasTex = textureManager.getTexture(SpriteAtlasTexture.BLOCK_ATLAS_TEX);
+        AbstractTexture blockAtlasTex = textureManager.getTexture(SpriteAtlasTexture.BLOCK_ATLAS_TEXTURE);
         AbstractTexture lightTex = lightmapTextureManager.getTexture();
 
         this.bindTexture(blockAtlasTex, ChunkProgramTextureUnit.BLOCK_ATLAS);
